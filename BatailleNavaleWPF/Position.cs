@@ -4,6 +4,7 @@ using System.Text;
 
 namespace BatailleNavale
 {
+    // classe position  EX 4.2 en dev infiematique
     class Position
     {
         public int Ligne { get; }

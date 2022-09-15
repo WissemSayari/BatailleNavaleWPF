@@ -2,6 +2,7 @@
 
 namespace BatailleNavale
 {
+    // classe navire  EX 4.2 en dev infiematique
     class Navire
     {
         public TypeNavire Type { get; }

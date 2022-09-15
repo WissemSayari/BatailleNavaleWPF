@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace BatailleNavale
 {
+    // classe grille  EX 4.2 en dev infiematique
     class Grille
     {
         static private readonly Random rnd = new Random();

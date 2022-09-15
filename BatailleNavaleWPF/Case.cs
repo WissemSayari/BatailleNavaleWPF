@@ -1,5 +1,6 @@
 ﻿namespace BatailleNavale
 {
+    // classe grille exercice 2.4 en develeppenet informatique
     class Case
     {
         public Position Position { get; set;  }
