@@ -8,7 +8,7 @@ namespace BatailleNavale
 {
     interface INavire
     {
-         TypeNavire Type { get; }
+         int Taille { get; }
         bool Coule { get; }
 
     }

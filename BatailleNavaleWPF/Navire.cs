@@ -2,23 +2,28 @@
 
 namespace BatailleNavale
 {
-    // classe navire  EX 4.2 en dev infiematique
-    class Navire
+    // Un Navire est l'implémentation d'un INavire
+    class Navire : INavire
     {
-        public TypeNavire Type { get; }
+        public int Taille { get; }
         public bool Coule { get => EstCoule(); }
+
+        // lire le charactere de chaque type
+        public char Lettre;
 
         private readonly Case[] cases;
 
-        public Navire (TypeNavire type, Case[] carres)
+        // Constructeur pour la position de navire
+        public Navire(int taille, Case[] carres, char lettre)
         {
-            Type = type;
+            Taille = taille;
             cases = carres;
 
             foreach (Case carre in cases)
             {
                 carre.Navire = this;
             }
+            Lettre = lettre;
         }
 
         private bool EstCoule()
