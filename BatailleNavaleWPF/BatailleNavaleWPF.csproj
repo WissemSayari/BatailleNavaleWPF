@@ -62,7 +62,6 @@
     <Compile Include="Patrouilleur.cs" />
     <Compile Include="PorteAvions.cs" />
     <Compile Include="SousMarin.cs" />
-    <Compile Include="TypeNavire.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
