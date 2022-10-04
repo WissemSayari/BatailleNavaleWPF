@@ -13,7 +13,7 @@ namespace BatailleNavale
 
         // constructeur 
         // base: envoie les argument au classe parent (taille,case,charactere pour chaque type)
-        public SousMarin( Case[] carres) : base(1, carres, 'S')
+        public SousMarin( Case[] carres) : base(Taille, carres, 'S')
         {
 
         }

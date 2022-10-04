@@ -23,6 +23,7 @@ namespace BatailleNavale
             {
                 carre.Navire = this;
             }
+
             Lettre = lettre;
         }
 
